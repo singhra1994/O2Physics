@@ -1406,7 +1406,7 @@ inline int8_t HfFilterHelper::isSelectedSigmaCInDeltaMassRange(const T& pTrackSa
 
     if (activateQA)
       hMassVsPt->Fill(ptSigmaC, deltaMassPKPi);
-    }
+  }
 
   if (TESTBIT(isSelectedLc, 1)) {
     /// Lc->piKp case
